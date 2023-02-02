@@ -368,6 +368,13 @@ declare class ThermalPrinter {
   printImageBuffer(buffer: Buffer): Promise<Buffer>;
 
   /**
+   * Add logo saved in printer
+   * @param num image id
+   * @param mode mode
+   */
+  printLogo(num: number, mode: number): void;
+
+  /**
    * Send buffer to printer
    * @param Buffer
    * @returns Promise<String>
