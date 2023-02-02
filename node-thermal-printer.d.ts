@@ -9,7 +9,8 @@
 declare enum PrinterTypes {
   EPSON = "epson",
   TANCA = "tanca",
-  STAR = "star"
+  STAR = "star",
+  TGH = "tgh"
 }
 
 declare enum BreakLine {
