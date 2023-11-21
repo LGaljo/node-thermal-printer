@@ -64,7 +64,7 @@ declare class ThermalPrinter {
 
   /**
    * Constructor
-   * @param Object config (type, interface, width, characterSet, removeSpecialCharacters, options)
+   * @param Object config (type, interface, width, characterSet, driver, removeSpecialCharacters, breakLine, options)
   */
   constructor(config: {
     type?: PrinterTypes;
